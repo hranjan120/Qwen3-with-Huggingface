@@ -1,0 +1,30 @@
+# ======================================
+# Python
+# ======================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.log
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+
+# ======================================
+# OS / Editor files
+# ======================================
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+*.code-workspace*
+.venv/
+venv*/
