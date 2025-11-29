@@ -54,4 +54,19 @@ python -m uvicorn app:app --reload --host 0.0.0.0 --port 8000
 curl -X POST "http://localhost:8000/generate" \
      -H "Content-Type: application/json" \
      -d '{"prompt": "Tell me something interesting about AI."}'
-     ```
+```
+
+```
+postman request POST 'http://localhost:8000/train' \
+  --header 'Content-Type: application/json' \
+  --body '{
+  "data": [
+    {
+      "messages": [
+        { "role": "user", "content": "What is the primary vision of LLM?" },
+        { "role": "assistant", "content": "LLM vision is simplifying education funding access for every deserving student in India." }
+      ]
+    }
+  ]
+}'
+```
