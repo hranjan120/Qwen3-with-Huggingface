@@ -28,3 +28,4 @@ Thumbs.db
 *.code-workspace*
 .venv/
 venv*/
+trained-qwen3-qlora/

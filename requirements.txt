@@ -4,3 +4,10 @@ transformers==4.57.3
 torch
 accelerate
 sentencepiece
+datasets
+peft
+bitsandbytes
+jinja2
+safetensors
+protobuf
+numpy
